@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <title>WELCOME YOU</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+      <header>
+    
+
+        <div class="navbar">
+
+            <img src="logo.png" class="logo">
+            <h2>IETE</h2>
+            <p>The Institution of Electronics and 
+                <br>Telecommunication Engineers, Chennai</br></p>
+            
+            
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">EXECUTIVE COMMITTEE</a></li>
+                <li><a href="#">MEMBERSHIP</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </div> 
+        </header>
+    
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reveal Website Elements On Scroll - HTML, CSS & Javascript</title>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <script src="https://unpkg.com/scrollreveal"></script>
+      </head>
+      <body>
+    
+        <section class="sec-01">
+          <div class="container">
+            <h2 class="main-title">RECENT EVENTS</h2>
+            <div class="content">
+              <div class="image">
+                <img src="iete1.jpeg" alt="">
+              </div>
+              <div class="text-box">
+                <h3>PROFESSIONAL RESUME WRITING</h3>
+                <p>Mr.M.Vigneshwaran (Softskill Trainer/ e-learning developer) gave a guidance session on RESUME building in a Professional manner .</p>
+                <a href="#">Read more..</a>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+        <section class="sec-02">
+          <div class="container">
+            <div class="content">
+              <div class="image">
+                <img src="iete2.jpeg" alt="">
+              </div>
+              <div class="info">
+                <h4 class="info-title">EASE THE ERROR 1.0</h4>
+                <p>Mr.MallikMahalingam (CEO,Springpath (CISCO)) commenced with the evolution of hardware and operating software</p>
+                <a href="#">Read more..</a>
+              </div>
+            </div>
+          </div>
+        </section>
+          <section class="sec-01">
+            <div class="container">
+             
+              <div class="content">
+                <div class="image">
+                  <img src="iete3.jpeg" alt="">
+                </div>
+                <div class="text-box">
+                  <h3>5G AND IT'S HISTORIES</h3>
+                  <p>Mr.SunderPalaniraj (Director IC-design, TDKInvenSense) gave a technical talk on communication networks</p>
+                  <a href="#">Read more..</a>
+                </div>
+              </div>
+
+            </div>
+        </section>
+        <script>
+          //common reveal options to create reveal animations
+          ScrollReveal({
+            //reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 400
+          });
+    
+          //target elements, and specify options to create reveal animations
+          ScrollReveal().reveal('.main-title, .section-title', { delay: 500, origin: 'left' });
+          ScrollReveal().reveal('.sec-01 .image, .info', { delay: 600, origin: 'bottom' });
+          ScrollReveal().reveal('.text-box', { delay: 700, origin: 'right' });
+          ScrollReveal().reveal('.media-icons i', { delay: 500, origin: 'bottom', interval: 200 });
+          ScrollReveal().reveal('.sec-02 .image, .sec-03 .image', { delay: 500, origin: 'top' });
+          ScrollReveal().reveal('.media-info li', { delay: 500, origin: 'left', interval: 200 });
+        </script>
+<link rel="stylesheet" href="style.css">        
+<footer class="footer-section">
+    <link rel="stylesheet" href="style.css">
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h4>Find us</h4>
+                            <span>1010 Avenue, sw 54321, chandigarh</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Call us</h4>
+                            <span>9876543210 0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>Mail us</h4>
+                            <span>mail@info.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="https://i.ibb.co/QDy827D/ak-logo.png" class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="footer-text">
+                            <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                            elit,Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="footer-social-icon">
+                            <span>Follow us</span>
+                            <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                            <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Useful Links</h3>
+                        </div>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">services</a></li>
+                            <li><a href="#">portfolio</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Expert Team</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Latest News</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Subscribe</h3>
+                        </div>
+                        <div class="footer-text mb-25">
+                            <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                        </div>
+                        <div class="subscribe-form">
+                            <form action="#">
+                                <input type="text" placeholder="Email Address">
+                                <button><i class="fab fa-telegram-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/">Anup</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Policy</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    
+    
+    <nav class="social">
+     
+     
+              <ul>
+                  <li><a href="https://twitter.com/highflyer910">Twitter <i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://github.com/highflyer910">Github <i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/teonamushambadze">Linkedin <i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+          </nav>
+            
+</body>
+</html>
